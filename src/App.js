@@ -48,7 +48,7 @@ constructor(props) {
             todoItems: [{action: "Read React", done: false },
                         {action: "Call LF", done: false},
                         {action: "Go for a walk", done: false },
-                        {action: "Watch a tutorial", done: true}],
+                        {action: "Watch a tutorial", done: false}],
               showCompleted: true
           });
       }
