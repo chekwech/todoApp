@@ -10,10 +10,10 @@ constructor(props) {
     super(props);
     this.state = {
       userName: "Emma",
-      todoItems: [{action: "Buy Flowers", done: false },
-                  {action: "Get Shoes", done: false},
-                  {action: "Collect Tickets", done: false },
-                  {action: "Call Joe", done: false}],
+      todoItems: [{action: "Read React", done: false },
+                  {action: "Call LF", done: false},
+                  {action: "Go for a walk", done: false },
+                  {action: "Watch a tutorial", done: false}],
                   showCompleted: true
     }
   }
@@ -44,11 +44,11 @@ constructor(props) {
         this.setState(data != null
           ? JSON.parse(data)
           : {
-            userName: "Adam",
-            todoItems: [{action: "Buy Flowers", done: false },
-                        {action: "Get Shoes", done: false},
-                        {action: "Collect Tickets", done: true },
-                        {action: "Call Joe", done: true}],
+            userName: "Emma",
+            todoItems: [{action: "Read React", done: false },
+                        {action: "Call LF", done: false},
+                        {action: "Go for a walk", done: true },
+                        {action: "Watch a tutorial", done: true}],
               showCompleted: true
           });
       }
